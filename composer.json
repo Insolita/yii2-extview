@@ -1,0 +1,21 @@
+{
+    "name": "insolita/yii2-extview",
+    "description": "Main purpose - quick way for theming external modules with favorite template engine",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","behavior","view"," twig"," smarty"," template engine"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "insolita",
+            "email": "webmaster100500@ya.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "insolita\\extview\\": ""
+        }
+    }
+}
