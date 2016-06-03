@@ -19,7 +19,7 @@ use yii\base\Module;
  *              'class'=>'\some\Module',
  *               'prop'=>'foo',
  *               'as extview'=>[
- *                    'class'=>'insolita\extview\Extview',
+ *                    'class'=>'insolita\extview\ExtviewBehavior',
  *                    'viewExtension'=>'twig' //it set twig extension for all module controllers
  *
  *                    //Or with anonymous function with argument $route (equals \yii\base\Action $uniqueId property )
